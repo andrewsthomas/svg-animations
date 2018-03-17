@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -37,14 +41,43 @@ header {
   padding-top: 10px;
 }
 
-header nav {
+nav {
   padding-bottom: 50px;
   text-align: left;
 }
 
-header nav ul li {
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0 3em;
+}
+
+nav ul li {
   display: inline-block;
   margin-right: 20px;
+}
+
+nav a {
+  padding: .5em;
+  margin-right: 0;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav a:hover svg {
+  fill: red;
+}
+
+.heart {
+  fill: red;
+}
+
+nav svg {
+  padding-right: .25em;
+  width: auto;
+  height: .8em;
 }
 
 main {
