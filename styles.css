@@ -34,7 +34,7 @@ a {
 }
 
 a:hover {
-  color: #111;
+  color: #ba8058;
 }
 
 header {
@@ -62,16 +62,8 @@ nav a {
   margin-right: 0;
 }
 
-nav a:hover {
-  color: red;
-}
-
 nav a:hover svg {
-  fill: red;
-}
-
-.heart {
-  fill: red;
+  fill: #ba8058;
 }
 
 nav svg {
