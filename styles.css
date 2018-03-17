@@ -5,7 +5,8 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url(/svgs/background.svg);
+  background: #edeff0;
+  background-image: url(svgs/background.svg);
 }
 
 #container {
