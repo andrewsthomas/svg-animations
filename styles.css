@@ -33,9 +33,9 @@ a {
   font-weight: 700;
 }
 
-a:hover {
+/* a:hover {
   color: #ba8058;
-}
+} */
 
 header {
   padding-top: 10px;
@@ -62,14 +62,18 @@ nav a {
   margin-right: 0;
 }
 
-nav a:hover svg {
+/* nav a:hover path {
   fill: #ba8058;
-}
+} */
 
 nav svg {
   padding-right: .25em;
   width: auto;
   height: .8em;
+}
+
+.logo {
+  display: none;
 }
 
 main {
@@ -85,4 +89,14 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+@media (min-width: 425px) {
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+  .logo-text {
+    display: none;
+  }
 }
