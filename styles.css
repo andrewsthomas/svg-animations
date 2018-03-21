@@ -33,9 +33,9 @@ a {
   font-weight: 700;
 }
 
-/* a:hover {
+a:hover {
   color: #ba8058;
-} */
+}
 
 header {
   padding-top: 10px;
@@ -62,9 +62,9 @@ nav a {
   margin-right: 0;
 }
 
-/* nav a:hover path {
+nav a:hover path {
   fill: #ba8058;
-} */
+}
 
 nav svg {
   padding-right: .25em;
