@@ -99,16 +99,6 @@ main h2 {
   display: none;
 }
 
-.corgi-wrapper {
-  display: flex;
-  justify-content: center;
-  margin: 0 2em;
-}
-
-/* .corgi-wrapper svg {
-  margin: 0 .5em;
-} */
-
 .sable {
   fill: #b97f5b;
 }
@@ -140,5 +130,10 @@ footer {
   }
   .logo-header-text {
     display: none;
+  }
+  .corgi-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 2em;
   }
 }
