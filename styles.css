@@ -31,6 +31,7 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
+  transition: color .5s;
 }
 
 a:hover {
@@ -62,6 +63,10 @@ nav a {
   margin-right: 0;
 }
 
+nav a path {
+  transition: fill .5s;
+}
+
 nav a:hover path {
   fill: #ba8058;
 }
@@ -76,6 +81,14 @@ nav svg {
 .location path,
 .contact path {
   fill: #39add1;
+}
+
+.logo {
+  transition: transform 1s;
+}
+
+.logo:hover {
+  transform: scale(1.1) rotate(-10deg);
 }
 
 .logo-text {
@@ -99,6 +112,18 @@ main h2 {
   display: none;
 }
 
+.corgi-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.corgi-wrapper div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .sable {
   fill: #b97f5b;
 }
@@ -113,6 +138,29 @@ main h2 {
 
 .stone {
   fill: #52595f;
+}
+
+.corgi-wrapper span {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: -1.5em;
+  font-weight: bold;
+}
+
+.sable-text {
+  color: #b97f5b;
+}
+
+.fawn-text {
+  color: #e9aa82;
+}
+
+.red-text {
+  color: #834b29;
+}
+
+.stone-text {
+  color: #52595f;
 }
 
 footer {
@@ -130,10 +178,5 @@ footer {
   }
   .logo-header-text {
     display: none;
-  }
-  .corgi-wrapper {
-    display: flex;
-    justify-content: center;
-    margin: 0 2em;
   }
 }
