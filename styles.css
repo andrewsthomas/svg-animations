@@ -95,6 +95,36 @@ main h2 {
   font-size: 28px;
 }
 
+#corgi-svg {
+  display: none;
+}
+
+.corgi-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 2em;
+}
+
+/* .corgi-wrapper svg {
+  margin: 0 .5em;
+} */
+
+.sable {
+  fill: #b97f5b;
+}
+
+.fawn {
+  fill: #e9aa82;
+}
+
+.red {
+  fill: #834b29;
+}
+
+.stone {
+  fill: #52595f;
+}
+
 footer {
   width: 100%;
   margin-top: 100px;
