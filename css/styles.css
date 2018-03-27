@@ -1,3 +1,5 @@
+/*** BASE ***/
+
 * {
   box-sizing: border-box;
 }
@@ -11,13 +13,6 @@ body {
   color: #111;
   background: #edeff0;
   background-image: url(svgs/background.svg);
-}
-
-#container {
-  max-width: 960px;
-  background: #fff;
-  margin: 0 auto;
-  height: 100%; /* new line */
 }
 
 p {
@@ -34,8 +29,13 @@ a {
   transition: color .5s;
 }
 
-a:hover {
-  color: #ba8058;
+/*** LAYOUT ***/
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
 }
 
 header {
@@ -67,37 +67,18 @@ nav a path {
   transition: fill .5s;
 }
 
-nav a:hover path {
-  fill: #ba8058;
-}
-
 nav svg {
   padding-right: .25em;
   width: auto;
   height: .8em;
 }
 
-.heart path,
-.location path,
-.contact path {
-  fill: #39add1;
-}
-
 .logo {
   transition: transform 1s;
 }
 
-.logo:hover {
-  transform: scale(1.1) rotate(-10deg);
-}
-
 .logo-text {
   display: none;
-}
-
-.logo-header-text {
-  color: #ba8058;
-  margin-bottom: 2em;
 }
 
 main {
@@ -124,22 +105,6 @@ main h2 {
   justify-content: center;
 }
 
-.sable {
-  color: #b97f5b;
-}
-
-.fawn {
-  color: #e9aa82;
-}
-
-.red {
-  color: #834b29;
-}
-
-.stone {
-  color: #52595f;
-}
-
 .corgi-wrapper span {
   margin-top: .5em;
   margin-bottom: .5em;
@@ -147,27 +112,58 @@ main h2 {
   font-weight: bold;
 }
 
-.sable-text {
-  color: #b97f5b;
-}
-
-.fawn-text {
-  color: #e9aa82;
-}
-
-.red-text {
-  color: #834b29;
-}
-
-.stone-text {
-  color: #52595f;
-}
-
 footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+/*** STATES ***/
+
+a:hover {
+  color: #ba8058;
+}
+
+nav a:hover path {
+  fill: #ba8058;
+}
+
+.logo:hover {
+  transform: scale(1.1) rotate(-10deg);
+}
+
+/*** THEMES ***/
+
+.heart path,
+.location path,
+.contact path {
+  fill: #39add1;
+}
+
+.logo-header-text {
+  color: #ba8058;
+  margin-bottom: 2em;
+}
+
+.sable,
+.sable-text {
+  color: #b97f5b;
+}
+
+.fawn,
+.fawn-text {
+  color: #e9aa82;
+}
+
+.red,
+.red-text {
+  color: #834b29;
+}
+
+.stone,
+.stone-text {
+  color: #52595f;
 }
 
 /*** TABLET AND DESKTOP MEDIA QUERY ***/
